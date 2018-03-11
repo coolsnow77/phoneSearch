@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">phoneSearch</string>
+    <string name="phone_search_name">手机号码归属地查询</string>
+</resources>
