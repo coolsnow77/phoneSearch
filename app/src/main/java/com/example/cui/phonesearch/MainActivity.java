@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        Toast.makeText(this, "点击了", Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "点击了", Toast.LENGTH_LONG).show();
         mainPresenter.searchPhoneInfo(input_phone.getText().toString());
     }
 

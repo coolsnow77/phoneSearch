@@ -46,7 +46,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:textColor="@color/title_txt_color"
-        android:text="手机号码查询" />
+        android:text="@string/phone_search" />
 
     <EditText
         android:id="@+id/input_phone"
@@ -55,7 +55,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:hint="请输入手机号码查询"
+        android:hint="@string/input_phone"
         android:textColorHighlight="@color/hint_color"
         />
     
@@ -69,7 +69,7 @@
         android:background="@color/button_background_color"
         android:textColor="@android:color/white"
         android:textSize="20dp"
-        android:text="查询"
+        android:text="@string/search_btn"
         />
     
     <!-- 查询结果-->
@@ -79,7 +79,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="40dp"
         android:textColor="@color/search_title_color"
-        android:text="查询结果"
+        android:text="@string/search_result"
         />
     
     <LinearLayout
@@ -98,7 +98,7 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:textColor="@android:color/black"
-            android:text="手机号:xxxxxx"
+            android:text="@string/phone"
             />
         <View
             android:layout_width="match_parent"
@@ -114,7 +114,7 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:textColor="@android:color/black"
-            android:text="省份:xxxxxx"
+            android:text="@string/province"
             />
 
         <View
@@ -132,7 +132,7 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:textColor="@android:color/black"
-            android:text="运营商:xxxxxx"
+            android:text="@string/catName"
             />
         <View
             android:layout_width="match_parent"
@@ -148,7 +148,7 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:textColor="@android:color/black"
-            android:text="归属运营商:xxxxxx"
+            android:text="@string/carrier"
             />
 
     </LinearLayout>
