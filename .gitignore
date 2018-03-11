@@ -13,6 +13,7 @@ target
 pom.xml.*
 release.properties
 
+.gradle
 .idea
 *.iml
 *.ipr
